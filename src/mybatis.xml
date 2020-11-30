@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+ PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+ "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+    <!-- paramType别名 
+    <typeAliases>
+       <typeAlias type="cn.com.bean.Student" alias="xxx"/> 
+       <package name="cn.com.bean"/>
+    </typeAliases>-->
+   
+    <mappers>
+          <!-- <package name="cn.com.dao"/> -->
+          <mapper resource="cn/com/dao/mapper.xml"/>
+    </mappers>
+</configuration>
